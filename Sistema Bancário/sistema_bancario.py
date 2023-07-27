@@ -12,6 +12,7 @@ limite = 500
 extrato = ""
 numero_saques =0
 LIMITE_SAQUES = 3
+numero_saques_restantes = LIMITE_SAQUES - numero_saques
 
 while True:
     
@@ -58,7 +59,8 @@ while True:
         print("\n=========== EXTRATO ==========")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo:.2f}")
-        print("===============================")        
+        print(f"\nNúmero de saldos restantes: {numero_saques_restantes}.")
+        print("==============================")        
     
     elif opcao == "q":
         break
