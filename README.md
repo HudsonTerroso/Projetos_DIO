@@ -1,1 +1,1 @@
-# Projetos_DIO
+Projetos referentes aos cursos realizados na plataforma da DIO.
